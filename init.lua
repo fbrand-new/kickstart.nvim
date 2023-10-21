@@ -271,6 +271,13 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+-- 4 spaces tabstop
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+
+-- Set tabstop as spaces
+vim.o.expandtab = true
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
